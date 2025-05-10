@@ -1,4 +1,5 @@
 import Companies from "./components/Companies";
+import CTA from "./components/CTA";
 import Expertise from "./components/Expertise";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
       <Service />
       <Testimonials />
       <Team />
+      <CTA />
     </>
   );
 }
