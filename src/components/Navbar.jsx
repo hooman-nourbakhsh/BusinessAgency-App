@@ -12,7 +12,7 @@ function Navbar() {
     <div className="py-3">
       <div className="max-w-7xl mx-auto flex items-center px-6 md:px-0 justify-between">
         {/* Logo */}
-        <h1 className="md:text-3xl text-2xl font-bold">Prosperix</h1>
+        <h2 className="md:text-3xl text-2xl font-bold">Prosperix</h2>
         {/* menu section */}
         <nav className="hidden md:block">
           <ul className="flex gap-9 items-center text-xl font-semibold text-gray-800 *:cursor-pointer">

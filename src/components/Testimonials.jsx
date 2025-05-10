@@ -14,7 +14,7 @@ function Testimonials() {
               <h3 className="bg-[#e3eeee] text-[#008080] font-bold px-3 py-1">TESTIMONIALS</h3>
               <img src={line} alt="" />
             </div>
-            <h1 className="md:text-4xl text-3xl font-bold">What Our Customer Say</h1>
+            <h2 className="md:text-4xl text-3xl font-bold">What Our Customer Say</h2>
             <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
           </div>
           <div className="hidden md:block"></div>
@@ -25,7 +25,7 @@ function Testimonials() {
             <div className="flex gap-7">
               <img src={testimonial1} alt="" />
               <div className="space-y-1">
-                <h1 className="font-bold text-xl">Grace Turner</h1>
+                <h4 className="font-bold text-xl">Grace Turner</h4>
                 <p className="text-gray-400">Director</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ function Testimonials() {
             <div className="flex gap-7">
               <img src={testimonial2} alt="" />
               <div className="space-y-1">
-                <h1 className="font-bold text-xl">Linda Carter</h1>
+                <h4 className="font-bold text-xl">Linda Carter</h4>
                 <p className="text-gray-400">Analyst</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ function Testimonials() {
             <div className="flex gap-7">
               <img src={testimonial3} alt="" />
               <div className="space-y-1">
-                <h1 className="font-bold text-xl">Alex Walker</h1>
+                <h4 className="font-bold text-xl">Alex Walker</h4>
                 <p className="text-gray-400">Attorney</p>
               </div>
             </div>

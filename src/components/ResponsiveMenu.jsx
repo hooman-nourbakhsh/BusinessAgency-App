@@ -4,7 +4,7 @@ function ResponsiveMenu({ showMenu, setShowMenu }) {
       className={`${showMenu ? "left-0" : "-left-[100%]"}
     fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-green-50 px-8 pb-6 pt-16 md:hidden rounded-r-xl shadow-md transition-all`}>
       <div className="">
-        <h1 className="font-bold text-2xl text-center">Prosperix</h1>
+        <h2 className="font-bold text-2xl text-center">Prosperix</h2>
         <nav className="mt-12">
           <ul className="flex flex-col gap-9 items-center text-xl font-semibold text-gray-800 *:cursor-pointer">
             <li>Home</li>
@@ -16,7 +16,7 @@ function ResponsiveMenu({ showMenu, setShowMenu }) {
         </nav>
       </div>
       <div className="">
-        <h1>Made With ❤️</h1>
+        <h4>Made With ❤️</h4>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function CTA() {
             <h3 className="text-[#2cdfd5] font-bold px-3 py-1">START NOW</h3>
             <img src={line2} alt="" />
           </div>
-          <h1 className="text-4xl md:text-5xl text-white font-bold">Get Start For Free No Credit Card Required</h1>
+          <h2 className="text-4xl md:text-5xl text-white font-bold">Get Start For Free No Credit Card Required</h2>
           <div className="flex md:gap-5 gap-2">
             <input type="text" placeholder="Email Address" className="bg-white px-5 rounded-sm py-3 md:w-[300px]" />
             <button className="bg-[#20cfc6] text-white px-4 py-2 rounded-sm">Get Started</button>

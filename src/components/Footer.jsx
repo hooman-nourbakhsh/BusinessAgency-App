@@ -9,7 +9,7 @@ function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 md:gap-0 md:mb-16 mb-10">
           {/* column 1 */}
           <div className="space-y-7">
-            <h1 className="font-bold text-2xl ">Prosperix</h1>
+            <h2 className="font-bold text-2xl ">Prosperix</h2>
             <p>
               Our expert financial consultants provide solutions to help you achieve financial wealth. Trust us to guide you toward a brighter
               financial future.
@@ -31,7 +31,7 @@ function Footer() {
           </div>
           {/* column 2 */}
           <div className="space-y-5 md:pl-28">
-            <h1 className="font-bold text-xl">Our Services</h1>
+            <h3 className="font-bold text-xl">Our Services</h3>
             <p>Insurance Planning</p>
             <p>Estate Planning</p>
             <p>Tax Optimization</p>
@@ -39,7 +39,7 @@ function Footer() {
           </div>
           {/* column 3 */}
           <div className="space-y-5 md:pl-28">
-            <h1 className="font-bold text-xl">Explore More</h1>
+            <h3 className="font-bold text-xl">Explore More</h3>
             <p>About us</p>
             <p>Blog</p>
             <p>Sitemap</p>
@@ -47,13 +47,13 @@ function Footer() {
           </div>
           {/* column 4 */}
           <div className="space-y-5 md:pl-28">
-            <h1 className="font-bold text-xl">Contact Details</h1>
+            <h3 className="font-bold text-xl">Contact Details</h3>
             <p>contact@briofin.com</p>
             <p>+1 (555) 123-4567</p>
           </div>
         </div>
         <hr />
-        <div className="mt-5 flex justify-between text-center">
+        <div className="mt-5 flex flex-col md:flex-row items-center justify-between text-center">
           <p>DSCODE 2025 @ All rights reserved</p>
           <div className="flex gap-4 md:gap-7">
             <p>Terms & Conditions</p>

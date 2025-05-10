@@ -20,11 +20,11 @@ function Service() {
             <img src={line} alt="" />
           </div>
           <div className="space-y-7">
-            <h1 className="md:text-5xl text-3xl font-bold">
+            <h2 className="md:text-5xl text-3xl font-bold">
               Our Services Can Help <br />
               You Grow Your <br />
               Investments and Wealth
-            </h1>
+            </h2>
             <p>Embark on a Journey to Unlock a World of Financial Opportunities, Grow Your Investment with Our Comprehensive and Expert Services</p>
           </div>
           <div className="grid grid-cols-2 gap-5">

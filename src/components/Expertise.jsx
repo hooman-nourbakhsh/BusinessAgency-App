@@ -12,10 +12,10 @@ function Expertise() {
             <img src={line} alt="" />
           </div>
           <div className="space-y-7">
-            <h1 className="md:text-5xl text-3xl font-bold">
+            <h2 className="md:text-5xl text-3xl font-bold">
               Transforming Finances <br />
               With Strategic Wealth <br /> Management
-            </h1>
+            </h2>
             <p>
               Guiding You on Your Global Financial Success Journey Through Customized & Personalized Financial Consulting Services. Achieve Your Goals
               with Data-Driven Expertise and Secure Your Financial Future, Successfully Navigating the Ever-Changing Finance
