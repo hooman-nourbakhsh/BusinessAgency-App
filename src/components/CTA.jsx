@@ -3,26 +3,35 @@ import line2 from "../assets/line2.png";
 
 function CTA() {
   return (
-    <div className="my-20 p-3 md:p-0">
-      <div className="max-w-7xl mx-auto bg-[#008080] gap-10 md:gap-0 grid md:grid-cols-2 items-center rounded-tl-4xl rounded-br-4xl md:p-10 py-10 px-3">
+    <div className="container my-20">
+      <div className="grid items-center gap-10 rounded-tl-4xl rounded-br-4xl bg-[#008080] px-4 py-10 md:grid-cols-2 md:gap-0 md:px-6">
         {/* text section */}
-        <div className="space-y-10 ">
-          <div className="flex gap-5 items-center">
-            <h3 className="text-[#2cdfd5] font-bold px-3 py-1">START NOW</h3>
+        <div className="space-y-10">
+          <div className="flex items-center gap-5">
+            <h3 className="px-3 py-1 font-bold text-[#2cdfd5]">START NOW</h3>
             <img src={line2} alt="" />
           </div>
-          <h2 className="text-4xl md:text-5xl text-white font-bold">Get Start For Free No Credit Card Required</h2>
-          <div className="flex md:gap-5 gap-2">
-            <input type="text" placeholder="Email Address" className="bg-white px-5 rounded-sm py-3 md:w-[300px]" />
-            <button className="bg-[#20cfc6] text-white px-4 py-2 rounded-sm">Get Started</button>
+          <h2 className="text-4xl font-bold text-white lg:text-5xl">
+            Get Start For Free No Credit Card Required
+          </h2>
+          <div className="flex gap-2 lg:gap-5">
+            <input
+              type="text"
+              placeholder="Email Address"
+              className="rounded-sm bg-white px-5 py-3 lg:w-[300px]"
+            />
+            <button className="rounded-sm bg-[#20cfc6] px-4 py-2 text-white">
+              Get Started
+            </button>
           </div>
-          <p className="text-gray-200">
-            Want to contact our team and book a call? <span className="text-[#20cfc6]">Try it now</span>
+          <p className="text-sm text-gray-200 lg:text-xl">
+            Want to contact our team and book a call?
+            <span className="text-[#20cfc6]"> Try it now</span>
           </p>
         </div>
         {/* image section */}
         <div className="">
-          <img src={CTAImage} alt="" />
+          <img src={CTAImage} alt="" className="w-full" />
         </div>
       </div>
     </div>

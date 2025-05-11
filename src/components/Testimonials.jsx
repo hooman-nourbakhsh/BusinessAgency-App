@@ -6,64 +6,74 @@ import testimonial3 from "../assets/testimonial3.png";
 
 function Testimonials() {
   return (
-    <div className="my-20">
-      <div className="max-w-7xl mx-auto ">
-        <div className="grid p-6 md:p-0 md:grid-cols-2 ">
-          <div className="space-y-5">
-            <div className="flex gap-5 items-center">
-              <h3 className="bg-[#e3eeee] text-[#008080] font-bold px-3 py-1">TESTIMONIALS</h3>
-              <img src={line} alt="" />
-            </div>
-            <h2 className="md:text-4xl text-3xl font-bold">What Our Customer Say</h2>
-            <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
+    <div className="container my-20 px-4 md:px-6">
+      <div className="grid md:grid-cols-2">
+        <div className="space-y-5">
+          <div className="flex items-center gap-5">
+            <h3 className="bg-[#e3eeee] px-3 py-1 font-bold text-[#008080]">
+              TESTIMONIALS
+            </h3>
+            <img src={line} alt="" />
           </div>
-          <div className="hidden md:block"></div>
+          <h2 className="text-3xl font-bold md:text-4xl">
+            What Our Customer Say
+          </h2>
+          <p>
+            Discover the Success Stories and Satisfaction of Clients Who Have
+            Benefited from Our Expertise and Personalized Financial Guidance
+          </p>
         </div>
+        <div className="hidden md:block"></div>
+      </div>
 
-        <div className="grid p-6 md:p-0 md:grid-cols-3 my-10 gap-14">
-          <div className="border-2 border-gray-400 rounded-tl-4xl rounded-br-4xl p-10 space-y-5">
-            <div className="flex gap-7">
-              <img src={testimonial1} alt="" />
-              <div className="space-y-1">
-                <h4 className="font-bold text-xl">Grace Turner</h4>
-                <p className="text-gray-400">Director</p>
-              </div>
-            </div>
-            <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
-            <div className="flex justify-end">
-              <Quote fill="#008080" />
+      <div className="my-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3 xl:gap-14">
+        <div className="space-y-5 rounded-tl-4xl rounded-br-4xl border-2 border-gray-400 p-10">
+          <div className="flex gap-7">
+            <img src={testimonial1} alt="" />
+            <div className="space-y-1">
+              <h4 className="text-xl font-bold">Grace Turner</h4>
+              <p className="text-gray-400">Director</p>
             </div>
           </div>
-          <div className="border-2 border-gray-400 bg-[#008080] text-white rounded-tl-4xl rounded-br-4xl p-10 space-y-5">
-            <div className="flex gap-7">
-              <img src={testimonial2} alt="" />
-              <div className="space-y-1">
-                <h4 className="font-bold text-xl">Linda Carter</h4>
-                <p className="text-gray-400">Analyst</p>
-              </div>
-            </div>
-            <p>
-              Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the
-              results.
-            </p>
-            <div className="flex justify-end">
-              <Quote fill="#008080" />
+          <p>
+            Financial expertise has made a significant impact on our nonprofit
+            financial stability, allowing us to better serve our community
+          </p>
+          <div className="flex justify-end">
+            <Quote fill="#008080" />
+          </div>
+        </div>
+        <div className="space-y-5 rounded-tl-4xl rounded-br-4xl border-2 border-gray-400 bg-[#008080] p-10 text-white">
+          <div className="flex gap-7">
+            <img src={testimonial2} alt="" />
+            <div className="space-y-1">
+              <h4 className="text-xl font-bold">Linda Carter</h4>
+              <p className="text-gray-400">Analyst</p>
             </div>
           </div>
-          <div className="border-2 border-gray-400 rounded-tl-4xl rounded-br-4xl p-10 space-y-5">
-            <div className="flex gap-7">
-              <img src={testimonial3} alt="" />
-              <div className="space-y-1">
-                <h4 className="font-bold text-xl">Alex Walker</h4>
-                <p className="text-gray-400">Attorney</p>
-              </div>
+          <p>
+            Financial planning and investment advice I received from this team
+            completely transformed my future. I couldn't be happier with the
+            results.
+          </p>
+          <div className="flex justify-end">
+            <Quote fill="#008080" />
+          </div>
+        </div>
+        <div className="space-y-5 rounded-tl-4xl rounded-br-4xl border-2 border-gray-400 p-10">
+          <div className="flex gap-7">
+            <img src={testimonial3} alt="" />
+            <div className="space-y-1">
+              <h4 className="text-xl font-bold">Alex Walker</h4>
+              <p className="text-gray-400">Attorney</p>
             </div>
-            <p>
-              Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing family's future is secure
-            </p>
-            <div className="flex justify-end">
-              <Quote fill="#008080" />
-            </div>
+          </div>
+          <p>
+            Estate planning is crucial, and they made the process seamless and
+            stress-free. I can rest assured knowing family's future is secure
+          </p>
+          <div className="flex justify-end">
+            <Quote fill="#008080" />
           </div>
         </div>
       </div>
